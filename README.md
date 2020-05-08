@@ -1,3 +1,26 @@
+# Requirements
+
+-Power BI desktop (if you don't have the latest version, you may be prompted that "Report layout differences might exist" when loading.  You can close the prompt and you shouldn't have any issues as long as you are on a fairly recent version)
+
+-Access to the License-Based CSP files from Partner Center.
+
+-Access to the Offer Matrix file from Partner Center.
+
+-If you want to publish and share your report internally, you'll need Power BI Pro or Premium, as will the users you want to share with.
+
+-Currently the template is set up for US pricing and offer matrix.  Future versions will allow for multiple countries.  If you want to change the contry before that, pleas reach out for instructions. 
+
+# Configuration
+
+1. Download all of the License-based CSP files you want in the report from Partner Center and place them in a folder (only keep 1 file for each month in the folder).  When you add a new monthly file, copy it to the folder and then Refresh the Power BI report.
+
+2. Download the Offer Matrix from Partner Center and put it in same folder as the License-based files (you should never have more than 1 Offer Matrix file in this folder.  When you download a new one into the folder, delete the old one and then Refresh the report)
+
+3. Open the Power BI Template in Power BI Desktop.  Upon launch, you will be prompted to enter: <b>Folder(License-based and Offer matrix)</b>.  Enter the path to the folder where you saved the files in steps 1 and 2 and click Load.
+
+4. Save the report.
+
+5. If you have Power BI Pro or Premuim,  you can publish the report for internal use and share if you'd like. <b>(DO NOT PUBLISH EXTERNALLY)</b>
 
 # Contributing
 
