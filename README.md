@@ -6,7 +6,7 @@
 
 -Access to the Offer Matrix file from Partner Center.
 
--If you want to publish and share your report internally, you'll need Power BI Pro or Premium, as will the users you want to share with.
+-If you want to publish and share your report internally, you'll need Power BI Pro or Premium, as will the users you want to share with. <b>(DO NOT PUBLISH EXTERNALLY)</b>
 
 -Currently the template is set up for US pricing and offer matrix.  Future versions will allow for multiple countries.  If you want to change the contry before that, pleas reach out for instructions. 
 
@@ -20,7 +20,9 @@
 
 4. Save the report.
 
-5. If you have Power BI Pro or Premuim,  you can publish the report for internal use and share if you'd like. <b>(DO NOT PUBLISH EXTERNALLY)</b>
+5. When you load the report in the future, use the file you just saved (Power BI deskop file), instead of the template.
+
+6. If you have Power BI Pro or Premuim,  you can publish the report for internal use and share if you'd like. <b>(DO NOT PUBLISH EXTERNALLY)</b>
 
 # Contributing
 
