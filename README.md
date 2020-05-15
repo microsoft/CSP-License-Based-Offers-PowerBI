@@ -12,11 +12,14 @@
 
 # Configuration
 
-1. Download all of the License-based CSP files you want in the report from Partner Center and place them in a folder (only keep 1 file for each month in the folder).  When you add a new monthly file, copy it to the folder and then Refresh the Power BI report.
+1. Download all of the License-based CSP files you want in the report from Partner Center and place them in a folder (only keep 1 file for each month in the folder).  When you add a new monthly file, copy it to the folder and then Refresh the Power BI report.  e.g.: C:\Users\you\OneDrive - Microsoft\Documents\CSP Pricing Report\Pricing Files\
 
-2. Download the Offer Matrix from Partner Center and put it in same folder as the License-based files (you should never have more than 1 Offer Matrix file in this folder.  When you download a new one into the folder, delete the old one and then Refresh the report)
+2. Download the Offer Matrix file from Partner Center and put it in a different folder from the License-based files (you should never have more than 1 Offer Matrix file in this folder.  When you download a new one into the folder, delete the old one and then Refresh the report)  e.g.: C:\Users\you\OneDrive - Microsoft\Documents\CSP Pricing Report\Offer Matrix\
 
-3. Open the Power BI Template in Power BI Desktop.  Upon launch, you will be prompted to enter: <b>Folder(License-based and Offer matrix)</b>.  Enter the path to the folder where you saved the files in steps 1 and 2 and click Load.
+3. Open the Power BI Template in Power BI Desktop.  Upon launch, you will be prompted to enter the following: 
+<br><b>Folder(License-based pricing files)</b> -  Enter the path to the folder where you saved License-based pricing files in step 1
+<br><b>Folder(Offer Matrix)</b> -  Enter the path to the folder where you saved the Offer Matrix file in step 2 
+<br><b>Click Load</b>
 
 4. Save the report.
 
