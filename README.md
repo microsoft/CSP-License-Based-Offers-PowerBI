@@ -21,6 +21,8 @@
 <br><b>Folder(Offer Matrix)</b> -  Enter the path to the folder where you saved the Offer Matrix file in step 2 
 <br><b>Click Load</b>
 
+![Folder locations](docs/images/enter_folder_location.png)
+      
 4. Save the report.
 
 5. When you load the report in the future, use the file you just saved (Power BI deskop file), instead of the template.
