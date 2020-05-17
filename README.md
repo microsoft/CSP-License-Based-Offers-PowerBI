@@ -6,20 +6,29 @@
 
 -Access to the Offer Matrix file from Partner Center.
 
--If you want to publish and share your report internally, you'll need Power BI Pro or Premium, as will the users you want to share with. <b>(DO NOT PUBLISH EXTERNALLY)</b>
+-If you want to publish and share your report internally, you'll need Power BI Pro or Premium, as will the users you want to share with. **(DO NOT PUBLISH EXTERNALLY)**
 
 -Currently the template is set up for US pricing and offer matrix.  Future versions will allow for multiple countries.  If you want to change the contry before that, pleas reach out for instructions. 
 
 # Configuration
 
-1. Download all of the License-based CSP files you want in the report from Partner Center and place them in a folder (only keep 1 file for each month in the folder).  When you add a new monthly file, copy it to the folder and then Refresh the Power BI report.  e.g.: C:\Users\you\OneDrive - Microsoft\Documents\CSP Pricing Report\Pricing Files\
+1. Download all of the License-based CSP files you want in the report from Partner Center and place them in a folder:
+   * Example folder location - C:\Users\you\OneDrive - Microsoft\Documents\CSP Pricing Report\Pricing Files\
+   * Only keep 1 Licensed-based pricing file for each month in the folder
+   * Make sure there are no other files or folders in this folder
+   * When you get a new months pricing file, copy it to this folder and then Refresh the Power BI report
+   * If you update have an updated pricing file for a month, delete the old one and add the new one to the folder
 
-2. Download the Offer Matrix file from Partner Center and put it in a different folder from the License-based files (you should never have more than 1 Offer Matrix file in this folder.  When you download a new one into the folder, delete the old one and then Refresh the report)  e.g.: C:\Users\you\OneDrive - Microsoft\Documents\CSP Pricing Report\Offer Matrix\
+2. Download the Offer Matrix file from Partner Center and put it in a different folder from the License-based files:
+   * Example folder location - C:\Users\you\OneDrive - Microsoft\Documents\CSP Pricing Report\Offer Matrix\
+   * You should never have more than 1 Offer Matrix file in this folder
+   * Make sure there are no other files or folders in this folder
+   * When you download a new Offer Matraix, delete the old one, add the new one to this folder and then Refresh the report
 
 3. Open the Power BI Template in Power BI Desktop.  Upon launch, you will be prompted to enter the following: 
-<br><b>Folder(License-based pricing files)</b> -  Enter the path to the folder where you saved License-based pricing files in step 1
-<br><b>Folder(Offer Matrix)</b> -  Enter the path to the folder where you saved the Offer Matrix file in step 2 
-<br><b>Click Load</b>
+**Folder(License-based pricing files)** -  Enter the path to the folder where you saved License-based pricing files in step 1
+**Folder(Offer Matrix)** -  Enter the path to the folder where you saved the Offer Matrix file in step 2 
+**Click Load**
 
 ![Folder locations](docs/images/enter_folder_location.png)
       
@@ -27,7 +36,7 @@
 
 5. When you load the report in the future, use the file you just saved (Power BI deskop file), instead of the template.
 
-6. If you have Power BI Pro or Premuim,  you can publish the report for internal use and share if you'd like. <b>(DO NOT PUBLISH EXTERNALLY)</b>
+6. If you have Power BI Pro or Premuim,  you can publish the report for internal use and share if you'd like. **(DO NOT PUBLISH EXTERNALLY)**
 
 # Contributing
 
