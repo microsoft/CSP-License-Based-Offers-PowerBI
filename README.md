@@ -26,9 +26,9 @@
    * When you download a new Offer Matraix, delete the old one, add the new one to this folder and then Refresh the report
 
 3. Open the Power BI Template in Power BI Desktop.  Upon launch, you will be prompted to enter the following: 
-**Folder(License-based pricing files)** -  Enter the path to the folder where you saved License-based pricing files in step 1
-**Folder(Offer Matrix)** -  Enter the path to the folder where you saved the Offer Matrix file in step 2 
-**Click Load**
+   * **Folder(License-based pricing files)** -  Enter the path to the folder where you saved License-based pricing files in step 1
+   * **Folder(Offer Matrix)** -  Enter the path to the folder where you saved the Offer Matrix file in step 2 
+   * **Click Load**
 
 ![Folder locations](docs/images/enter_folder_location.png)
       
